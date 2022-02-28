@@ -12,19 +12,19 @@
 }
 
 #procelainstudios {
-    padding-right: 50px;
+    padding-right: 80px;
 }
 
 #professional {
-   padding-right: 50px;
+   padding-right: 80px;
 }
 
 #blogs {
-    padding-right: 50px;
+    padding-right: 80px;
 }
 
 #me {
-    padding-right: 50px;
+    padding-right: 80px;
 }
 .banner {
     /* The image used */
@@ -47,7 +47,7 @@ body {
   }
 p {
     color: #dae2ee;
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
 }
 div {
@@ -87,7 +87,7 @@ div {
 
 
 #blog1 {
-       background: rgb(186, 42, 222);
+       background: rgb(12, 96, 121);
        padding: 20px;
        font-size: 100px;
        font-weight: thin;
@@ -132,7 +132,7 @@ div {
     }
 
 footer {
-    background-color: beige;
+     background-color: rgb(8, 58, 70);
     text-align: center;
     font-size: small;
     image-resolution: 10px;
