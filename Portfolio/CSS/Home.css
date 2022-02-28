@@ -1,0 +1,117 @@
+
+
+
+
+
+.topnav {
+ background-color: rgb(95, 137, 181);
+ font-size: small;
+ justify-content: end;
+ align-items: flex-end;
+}
+
+#brand {
+    display: flex;
+    justify-content: left;  
+}
+
+#procelainstudios {
+    padding-right: 50px;
+}
+
+#professional {
+   padding-right: 50px;
+}
+
+#blogs {
+    padding-right: 50px;
+}
+
+#me {
+    padding-right: 50px;
+}
+
+body {background-color: #d7e3f5;
+}
+
+.banner {
+    /* The image used */
+    background-image:
+    url(../Images/Procelain\ Header\ 2.jpeg) }
+ 
+  
+h1 {
+    color: #2e5eac;
+    font-size: 100px;
+    text-align: center;
+    padding-left: 100px;
+}
+div {
+    
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.container {
+    background-color: rgb(196, 228, 238);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+    transition: 2s;    
+}
+.box:hover {
+    width: 800px;
+    height: 500px;
+    background-color: #9aa2b1;
+    
+}
+ 
+
+
+
+#box1 {
+       background: rgb(42, 174, 222);
+       padding: 20px;
+       font-size: 100px;
+       font-weight: thin;
+       font-family: cursive;
+       
+       
+       
+    }
+#box2 {
+       background-color: rgb(81, 124, 179);
+       padding: 20px;
+       font-size: 100px;
+       font-weight: thin;
+       font-family: cursive;
+       
+    }
+#box3 {
+       background: cornflowerblue;                     
+       padding: 20px;
+       font-size: 100px;
+       font-weight: thin;
+       font-family: cursive;
+       
+    }
+
+footer {
+    background-color: beige;
+    text-align: center;
+    font-size: small;
+    image-resolution: 10px;
+}
+
+@media only screen and (min-width: 401px;) {
+   
+}
