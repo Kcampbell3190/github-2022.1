@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0;
+}
+header {
+
+}
+
+header: ::after {
+    content: '';
+    clear: both;
+}
+.logo {
+    float: left;
+
+}
+
+nav {
+    float: right;
+
+}
+
+.background-image {
+    background-image: url(../Images/Rain.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
