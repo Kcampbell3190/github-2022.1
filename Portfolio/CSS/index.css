@@ -9,9 +9,7 @@ body {
     width: 80%;
     margin: 0;
 }
-header {
 
-}
 
 header: ::after {
     content: '';
@@ -19,8 +17,8 @@ header: ::after {
 }
 .logo {
     float: left;
-
 }
+
 
 nav {
     float: right;
@@ -33,6 +31,46 @@ nav {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    
+}
+
+.heading {
+    color: rgb(148, 190, 203);
+    text-align: center;
+    padding-top: 40%;
 
 }
+
+.heading hover {
+    transition: 3s;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+ .social-links {
+        margin: 0;
+        padding: 20px;
+        background-color: rgb(115, 117, 118);
+        display: flex;
+
+}
+.social-links ul {
+    list-style: none;
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+ 
+
+}
+.social-items a{
+    list-style: none;
+    display: flex;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+
+
+
+
