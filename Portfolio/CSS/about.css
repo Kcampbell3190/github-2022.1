@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0;
+}
+
+
+header: ::after {
+    content: '';
+    clear: both;
+}
+.logo {
+    float: left;
+}
+
+
+nav {
+    float: right;
+
+}
+
+.background-image {
+    background-image: url(../Images/Ocean.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    color: rgb(237, 237, 241);
+    text-align: center;
+    padding-top: 20%;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: thin;
+
+}
+
+.heading hover {
+    transition: 3s;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+ .social-links {
+        margin: 0;
+        padding: 20px;
+        background-color: rgb(115, 117, 118);
+        display: flex;
+
+}
+.social-links ul {
+    list-style: none;
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+ 
+
+}
+.social-items a{
+    list-style: none;
+    display: flex;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+
